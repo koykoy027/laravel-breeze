@@ -2,28 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+    @apply inline-flex items-center py-2 px-4 uppercase tracking-widest text-sm hover:opacity-80 rounded
+}
 .btn-primary {
-    @apply inline-flex items-center px-4 py-2 bg-indigo-500 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-indigo-700 focus:bg-indigo-700 active:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150;
+    @apply bg-indigo-500 text-white
 }
 .btn-secondary {
-    @apply inline-flex items-center px-4 py-2 bg-transparent border border-indigo-500 rounded-md font-semibold text-xs text-indigo-500 uppercase tracking-widest hover:bg-indigo-500 hover:text-white focus:bg-indigo-500 active:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150;
+    @apply bg-transparent text-indigo-500 border border-indigo-500 hover:bg-indigo-500 hover:text-white
 }
-.btn-danger{
-    @apply inline-flex items-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition ease-in-out duration-150
+.btn-danger {
+    @apply bg-red-500 text-white
 }
 label {
-    @apply block font-medium text-sm text-gray-700 inline-flex items-center;
+    @apply block font-medium text-sm text-gray-700 inline-flex items-center
 }
 input {
-    @apply border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm w-full;
+    @apply border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm w-full
 }
 input[type="checkbox"] {
-    @apply rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500;
+    @apply rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500
 }
-.nav-link .active{
-    @apply inline-flex items-center px-1 pt-1 border-b-2 border-indigo-400 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out
+.card {
+    @apply overflow-hidden shadow-sm sm:rounded-lg p-6 text-gray-900 mb-3
 }
-.nav-link {
-    @apply inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out
-}
-

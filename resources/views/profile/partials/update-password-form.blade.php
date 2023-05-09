@@ -32,7 +32,7 @@
         </div>
 
         <div class="flex items-center gap-4">
-            <button class="btn-primary">Save changes</button>
+            <button class="btn btn-primary">Save changes</button>
 
             @if (session('status') === 'password-updated')
                 <p
