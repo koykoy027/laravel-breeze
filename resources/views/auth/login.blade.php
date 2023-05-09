@@ -31,7 +31,7 @@
         </div>
 
         <div class="mb-3 flex justify-end">
-            <button class="btn-primary" type="submit">
+            <button class="btn btn-primary" type="submit">
                 Sign in
             </button>
         </div>

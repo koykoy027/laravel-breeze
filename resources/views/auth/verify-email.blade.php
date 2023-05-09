@@ -15,7 +15,7 @@
             @csrf
 
             <div class="mb-3">
-                <button class="btn-primary">
+                <button class="btn btn-primary">
                     Resend Verification Email
                 </button>
             </div>
